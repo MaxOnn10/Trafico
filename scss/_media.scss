@@ -1,0 +1,156 @@
+@media (min-width: 1920px) {
+}
+@media (max-width: 991px) {
+    .header {
+        .col-md-12 {
+            text-align: center;
+        }
+        &__logo {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        &__menu-items {
+            justify-content: center;
+        }
+        &__content-title {
+            line-height: 120%;
+        }
+    }
+    .car-img {
+        top: -215px;
+    }
+    .about {
+        padding-top: 330px;
+        &__note {
+            margin-top: 20px;
+        }
+    }
+    .faq__subtitle {
+        margin-bottom: 100px;
+    }
+    .faq .accordion {
+        padding-right: 65px;
+    }
+}
+@media (max-width: 767px) {
+    .header {
+        position: relative;
+        .burger {
+            display: block;
+        }
+    }
+    .header .col-md-12 {
+        text-align: left;
+    }
+    .header__content-title {
+        font-size: 78px;
+    }
+    .header__nav {
+        display: none;
+    }
+    .header__top-btn {
+        display: none;
+    }
+    .car-img {
+        top: -190px;
+        width: 70%;
+    }
+    .about {
+        padding-top: 200px;
+        &__text {
+            max-width: none;
+            margin-bottom: 50px;
+        }
+    }
+    .how-to__title {
+        padding-top: 0;
+    }
+    .how-to__text {
+        max-width: fit-content;
+    }
+    .faq__subtitle {
+        margin-bottom: 50px;
+    }
+    .faq__img {
+        margin-bottom: 50px;
+    }
+    .footer__top-form {
+        margin-top: 70px;
+    }
+    .footer__top-note {
+        max-width: fit-content;
+    }
+    .footer__menu-item:not(:last-child) {
+        margin-right: 50px;
+    }
+}
+@media (max-width: 575px) {
+    .header__content {
+        padding-top: 25px;
+    }
+    .header__content-title {
+        font-size: 45px;
+        line-height: 140%;
+    }
+    .about {
+        padding-top: 80px;
+        &__note {
+            padding: 15px 2px 15px 6px;
+        }
+    }
+    .how-to {
+        padding-top: 100px;
+    }
+    .faq {
+        margin-top: 100px;
+        padding: 50px 0 50px;
+        &__subtitle {
+            font-size: 41px;
+        }
+        .active + .panel{
+            padding: 40px 35px 150px;
+        }
+        .active + .panel.long-text{
+            padding: 40px 35px 300px;
+        }
+    }
+    .talk {
+        padding-top: 50px;
+        margin-bottom: 200px;
+        .swiper-container {
+            margin-left: 3%;
+        }
+        .swiper-slide {
+            padding: 60px 25px 40px;
+            max-width: none;
+            width: 82.5%;
+        }
+        .swiper-button-next {
+            top: 45%;
+        }
+        .swiper-button-prev {
+            top: 45%;
+            right: 30%;
+        }
+    }
+    .footer {
+        &__top-form {
+            padding: 52px 25px;
+        }
+        &__wrapper {
+            text-align: center;
+        }
+        &__bottom {
+            padding-bottom: 25px;
+        }
+        &__bottom-wrapper {
+            display: flex;
+        }
+        &__bottom-copyright {
+            margin-bottom: 30px;
+        }
+        &__bottom-social {
+            margin-bottom: 30px;
+        }
+    }
+}

@@ -1,0 +1,81 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    font-family: "Rubik-Light";
+    font-size: 18px;
+    margin: 0;
+    background-color: #fef8f5;
+    color: $text;
+}
+img {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-size: inherit;
+}
+
+.is-outer {
+    position: relative !important; // stylelint-disable-line declaration-no-important
+    left: -9999px !important; // stylelint-disable-line declaration-no-important
+}
+.site-container {
+    overflow: hidden;
+}
+.for-mobile {
+    display: none;
+}
+.error {
+    border: 2px #ff4019 solid !important; // stylelint-disable-line declaration-no-important
+}
+.btn-reset {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.js-focus-visible :focus:not(.focus-visible) {
+    outline: none;
+}
+
+// .container {
+//     max-width: 1120px;
+//     margin: 0 auto;
+//     padding: 0 15px;
+// }
+
+.btn {
+    font-family: "Rubik-Bold";
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    padding: 20px 24px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: $secondary;
+    text-transform: uppercase;
+}
